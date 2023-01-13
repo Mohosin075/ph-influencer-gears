@@ -60,7 +60,9 @@
 .menu li a {
   color: var(--header-text-color);
 }
-
+.bar,.card{
+  display: none;
+}
 /* banner */
 .banner {
   padding-top: 50px;
@@ -200,9 +202,7 @@ font-size: 24px;
     color: #ffffff;
 }
 
-.card{
-    display: none;
-}
+
 
 /* ----------------------
     media query responsive part
@@ -216,6 +216,7 @@ font-size: 24px;
     align-items: flex-start;
   }
   .bar{
+    display: block;
     margin-top: 7px;
   }
   .item-title{
@@ -243,7 +244,7 @@ font-size: 24px;
     display: none;
   }
   .card{
-    display: inline-block;
+    display:block;
     margin-top: 7px;
     
   }
